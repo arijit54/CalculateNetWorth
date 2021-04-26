@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+    name: "calculatenetworth-c691"
+    labels:
+        app: "calculatenetworth-c691"
+    annotations:
+        kubernetes.io/ingress.class: addon-http-application-routing
+spec:
+    rules:
+        - host: calculatenetworthadc9-calculatenetworth-c691.2f1c43974fa942c0b4d4.eastus.aksapp.io
+          http:
+            paths:
+            - path: /
+              backend:
+                serviceName: "calculatenetworth-c691"
+                servicePort: 80
