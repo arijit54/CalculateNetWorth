@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "calculatenetworth-c691"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "calculatenetworth-c691"
+  template:
+    metadata:
+      labels:
+        app: "calculatenetworth-c691"
+    spec:
+      containers:
+        - name: "calculatenetworth-c691"
+          image: "calculatenetworth3.azurecr.io/calculatenetworth"
+          ports:
+          - containerPort: 80
