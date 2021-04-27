@@ -11,20 +11,75 @@ namespace CalculateNetWorth.Models
     {
         public static List<StockTransactionDetails> stdList = new List<StockTransactionDetails>
        {
-           new StockTransactionDetails{TStockId=1,CustomerId=1,StockName="Bajaj Finance",StockCount=10,saleStatus=true},
-           new StockTransactionDetails{TStockId=2,CustomerId=1,StockName="Asian Paints",StockCount=10,saleStatus=true},
-           new StockTransactionDetails{TStockId=3,CustomerId=3,StockName="Adani Ports",StockCount=10,saleStatus=true},
-           new StockTransactionDetails{TStockId=4,CustomerId=4,StockName="Bajaj Automobiles",StockCount=10,saleStatus=true},
-           new StockTransactionDetails{TStockId=4,CustomerId=2,StockName="Bajaj Automobiles",StockCount=10,saleStatus=true},
-            new StockTransactionDetails{TStockId=5,CustomerId=2,StockName="Havells India",StockCount=10,saleStatus=true}
+          new StockTransactionDetails{TStockId=1,CustomerId=1,StockName="Bajaj Finance",StockCount=10,saleStatus=true},
+       new StockTransactionDetails{TStockId=2,CustomerId=1,StockName="Asian Paints",StockCount=15,saleStatus=true},
+           new StockTransactionDetails{TStockId=3,CustomerId=1,StockName="Adani Ports",StockCount=20,saleStatus=true},
+           new StockTransactionDetails{TStockId=4,CustomerId=1,StockName="Bajaj Automobiles",StockCount=16,saleStatus=true},
+       new StockTransactionDetails{TStockId=5,CustomerId=1,StockName="Havells India",StockCount=25,saleStatus=true},
+
+ 
+
+       new StockTransactionDetails{TStockId=1,CustomerId=2,StockName="Bajaj Finance",StockCount=20,saleStatus=true},
+       new StockTransactionDetails{TStockId=2,CustomerId=2,StockName="Asian Paints",StockCount=15,saleStatus=true},
+           new StockTransactionDetails{TStockId=3,CustomerId=2,StockName="Adani Ports",StockCount=14,saleStatus=true},
+           new StockTransactionDetails{TStockId=4,CustomerId=2,StockName="Bajaj Automobiles",StockCount=30,saleStatus=true},
+
+ 
+
+       new StockTransactionDetails{TStockId=2,CustomerId=3,StockName="Asian Paints",StockCount=25,saleStatus=true},
+           new StockTransactionDetails{TStockId=3,CustomerId=3,StockName="Adani Ports",StockCount=15,saleStatus=true},
+           new StockTransactionDetails{TStockId=4,CustomerId=3,StockName="Bajaj Automobiles",StockCount=16,saleStatus=true},
+       new StockTransactionDetails{TStockId=5,CustomerId=3,StockName="Havells India",StockCount=10,saleStatus=true},
+
+ 
+
+       new StockTransactionDetails{TStockId=1,CustomerId=4,StockName="Bajaj Finance",StockCount=5,saleStatus=true},
+       new StockTransactionDetails{TStockId=2,CustomerId=4,StockName="Asian Paints",StockCount=5,saleStatus=true},
+       new StockTransactionDetails{TStockId=4,CustomerId=4,StockName="Bajaj Automobiles",StockCount=6,saleStatus=true},
+       new StockTransactionDetails{TStockId=5,CustomerId=4,StockName="Havells India",StockCount=2,saleStatus=true},
+
+ 
+
+       new StockTransactionDetails{TStockId=1,CustomerId=5,StockName="Bajaj Finance",StockCount=10,saleStatus=true},
+       new StockTransactionDetails{TStockId=3,CustomerId=5,StockName="Adani Ports",StockCount=20,saleStatus=true},
+           new StockTransactionDetails{TStockId=4,CustomerId=5,StockName="Bajaj Automobiles",StockCount=26,saleStatus=true},
+       new StockTransactionDetails{TStockId=5,CustomerId=5,StockName="Havells India",StockCount=11,saleStatus=true}
         };
 
         public static List<MutualFundTransactionDetails> mtdList = new List<MutualFundTransactionDetails>
         {
-           new MutualFundTransactionDetails{TMutualId=1,CustomerId=1,MutualFundName="Axis Mutual Funds",MutualFundCount=10,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=1,CustomerId=1,MutualFundName="Axis Mutual Funds",MutualFundCount=15,saleStatus=true},
            new MutualFundTransactionDetails{TMutualId=2,CustomerId=1,MutualFundName="Reliance Mutual Funds",MutualFundCount=10,saleStatus=true},
-           new MutualFundTransactionDetails{TMutualId=3,CustomerId=3,MutualFundName="SBI Mutual Funds",MutualFundCount=10,saleStatus=true},
-           new MutualFundTransactionDetails{TMutualId=4,CustomerId=4,MutualFundName="ICICI Mutual Funds",MutualFundCount=10,saleStatus=true}
+           new MutualFundTransactionDetails{TMutualId=3,CustomerId=1,MutualFundName="SBI Mutual Funds",MutualFundCount=14,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=4,CustomerId=1,MutualFundName="ICICI Mutual Funds",MutualFundCount=12,saleStatus=true},
+
+ 
+
+        new MutualFundTransactionDetails{TMutualId=1,CustomerId=2,MutualFundName="Axis Mutual Funds",MutualFundCount=10,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=2,CustomerId=2,MutualFundName="Reliance Mutual Funds",MutualFundCount=30,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=3,CustomerId=2,MutualFundName="SBI Mutual Funds",MutualFundCount=25,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=4,CustomerId=2,MutualFundName="ICICI Mutual Funds",MutualFundCount=24,saleStatus=true},
+
+ 
+
+       new MutualFundTransactionDetails{TMutualId=1,CustomerId=3,MutualFundName="Axis Mutual Funds",MutualFundCount=20,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=2,CustomerId=3,MutualFundName="Reliance Mutual Funds",MutualFundCount=15,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=3,CustomerId=3,MutualFundName="SBI Mutual Funds",MutualFundCount=15,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=4,CustomerId=3,MutualFundName="ICICI Mutual Funds",MutualFundCount=20,saleStatus=true},
+
+ 
+
+        new MutualFundTransactionDetails{TMutualId=1,CustomerId=4,MutualFundName="Axis Mutual Funds",MutualFundCount=5,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=2,CustomerId=4,MutualFundName="Reliance Mutual Funds",MutualFundCount=10,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=3,CustomerId=4,MutualFundName="SBI Mutual Funds",MutualFundCount=5,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=4,CustomerId=4,MutualFundName="ICICI Mutual Funds",MutualFundCount=1,saleStatus=true},
+
+ 
+
+        new MutualFundTransactionDetails{TMutualId=1,CustomerId=5,MutualFundName="Axis Mutual Funds",MutualFundCount=10,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=2,CustomerId=5,MutualFundName="Reliance Mutual Funds",MutualFundCount=10,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=3,CustomerId=5,MutualFundName="SBI Mutual Funds",MutualFundCount=10,saleStatus=true},
+           new MutualFundTransactionDetails{TMutualId=4,CustomerId=5,MutualFundName="ICICI Mutual Funds",MutualFundCount=10,saleStatus=true}
 
 
         };
